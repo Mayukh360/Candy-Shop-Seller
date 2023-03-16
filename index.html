@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop</title>
+</head>
+<body>
+    <form onsubmit="savetoserver(event)">
+        <label >Candy Name</label>
+       <input id="name" type="text">
+       <label >Description</label>
+       <input id="description" type="text">
+       <label>Price</label>
+       <input id="price" type="number">
+       <label>Quantity</label>
+       <input id="quantity" type="number">
+       <button type="submit">ADD ITEM</button>
+    </form>
+    <ul id="listofitems"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    
+   <script src="script.js"></script>
+   
+   
+   
+</body>
+</html>
